@@ -25,9 +25,9 @@
 <ul>
 <li>Adres e-mail i hasło (hasło przechowywane wyłącznie jako skrót) — konto i logowanie. Podstawa: umowa (korzystanie z aplikacji).</li>
 <li>Profil: imię, opcjonalnie nazwisko, rok urodzenia, sport, pozycja — dopasowanie aplikacji do sportu, potwierdzenie wieku, rozpoznanie Cię przez trenera. Podstawa: umowa.</li>
-<li>Dane o zdrowiu: check-in (sen, energia, zmęczenie, samopoczucie, ból i jego miejsce), dziennik bólu, tętno spoczynkowe i HRV (jeśli je wpiszesz), regeneracja — ocena gotowości, wskazówki, historia i wykresy. Podstawa: Twoja wyraźna zgoda (art. 9 ust. 2 lit. a RODO), do wycofania w aplikacji.</li>
+<li>Dane o zdrowiu: check-in (sen, energia, zmęczenie, samopoczucie, ból i jego miejsce), dziennik bólu, tętno spoczynkowe i HRV (jeśli je wpiszesz), regeneracja — ocena gotowości, wskazówki, historia i wykresy. Podstawa: Twoja wyraźna zgoda (art. 9 ust. 2 lit. a RODO), do wycofania w aplikacji. Podstawowe funkcje aplikacji opierają się na tych danych, dlatego bez tej zgody nie można z niej korzystać — po wycofaniu aplikacja poprosi o nią ponownie, a dane możesz usunąć, usuwając konto.</li>
 <li>Treningi, mecze, wyniki, cele, notatki, rutyny — dziennik, postępy, obciążenie tygodniowe. Podstawa: umowa.</li>
-<li>Nagrania wideo techniki (jeśli je dodasz) — analiza techniki. Podstawa: umowa.</li>
+<li>Nagrania wideo techniki albo linki do filmów z YouTube lub Dysku Google (jeśli je dodasz) — analiza techniki. Podstawa: umowa.</li>
 <li>Historia zgód i ważnych zdarzeń konta (np. wygenerowanie kodu dla trenera, eksport danych), zgłoszenia odpowiedzi AI — bezpieczeństwo konta, rozliczalność zgód, poprawa jakości AI. Podstawa: prawnie uzasadniony interes i obowiązek wykazania zgody.</li>
 <li>Raporty błędów technicznych (opis błędu, ekran, wersja aplikacji — bez treści Twoich wpisów) — naprawianie błędów. Podstawa: prawnie uzasadniony interes.</li>
 </ul>
@@ -46,6 +46,7 @@
 <li>Supabase — baza danych, logowanie i przechowywanie nagrań. Region serwerów: Unia Europejska — Irlandia (AWS eu-west-1).</li>
 <li>Anthropic — tylko asystent AI i tylko za Twoją zgodą (pkt 4). Dane mogą być przetwarzane w USA na podstawie standardowych klauzul umownych.</li>
 <li>Brevo (Sendinblue SAS, Francja, UE) — wysyłka e-maili związanych z kontem (np. link do zmiany hasła); otrzymuje Twój adres e-mail i treść takiej wiadomości.</li>
+<li>Google (YouTube, Dysk Google) — tylko jeśli dodasz film jako link: film jest przechowywany na Twoim koncie Google, na zasadach Google. Recovery OS zapisuje sam link, a odtworzenie filmu w aplikacji łączy się z serwerami Google dopiero po naciśnięciu „Odtwórz”.</li>
 <li>Google Fonts — przy połączeniu z internetem aplikacja może pobierać czcionki z serwerów Google (Google widzi wtedy adres IP urządzenia).</li>
 <li>Nie sprzedajemy danych i nie przekazujemy ich reklamodawcom. Aplikacja nie zawiera reklam ani narzędzi analitycznych śledzących użytkowników.</li>
 </ul>
@@ -56,7 +57,7 @@
 </section>
 <section>
 <h2>8. Jak długo przechowujemy dane</h2>
-<p>Do czasu usunięcia konta. Usunięcie konta usuwa wszystkie Twoje dane, w tym nagrania wideo, historię zdarzeń i zgłoszenia. Nie prowadzimy kopii zapasowych bazy danych (korzystamy z bezpłatnego planu Supabase, który ich nie obejmuje), więc po usunięciu konta — albo w razie awarii — danych nie da się odzyskać. Dlatego warto co jakiś czas pobrać kopię swoich danych: Prywatność i dane → „Eksportuj moje dane”.</p>
+<p>Do czasu usunięcia konta. Usunięcie konta usuwa wszystkie Twoje dane, w tym nagrania wideo, historię zdarzeń i zgłoszenia. Filmy dodane jako linki zostają na Twoim koncie YouTube lub Dysku Google — tam je usuwasz. Nie prowadzimy kopii zapasowych bazy danych (korzystamy z bezpłatnego planu Supabase, który ich nie obejmuje), więc po usunięciu konta — albo w razie awarii — danych nie da się odzyskać. Dlatego warto co jakiś czas pobrać kopię swoich danych: Prywatność i dane → „Eksportuj moje dane”.</p>
 </section>
 <section>
 <h2>9. Twoje prawa</h2>

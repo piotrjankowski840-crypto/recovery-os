@@ -1,7 +1,7 @@
 // Recovery OS: service worker potrzebny do instalacji aplikacji z przeglądarki i do otwarcia jej bez sieci.
 // Zapisuje w pamięci telefonu WYŁĄCZNIE pliki samej aplikacji z tej domeny (strona, ikony, manifest).
 // Zapytań do Supabase (dane, logowanie) w ogóle nie obsługuje: idą prosto do sieci i nie są nigdzie zapisywane.
-const CACHE = "recovery-os-1.4.2";
+const CACHE = "recovery-os-1.5.0";
 const FILES = ["./", "manifest.webmanifest", "icon-192.png", "icon-512.png"];
 
 self.addEventListener("install", (e) => {
